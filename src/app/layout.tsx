@@ -18,6 +18,10 @@ export const metadata: Metadata = {
   title: "Ivan Idrisov | Product Designer",
   description:
     "Senior Product Designer with experience in fintech, crypto and payments. Ex-Yandex, Alpha One, XPlace.",
+  icons: {
+    icon: "/images/fav.png",
+    apple: "/images/fav.png",
+  },
 };
 
 export default function RootLayout({

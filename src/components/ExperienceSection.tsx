@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { ChevronDown, ExternalLink } from "lucide-react";
-import { experiences, siteConfig } from "@/data/site";
+import { experiences } from "@/data/site";
 import { cn } from "@/lib/utils";
 
 export function ExperienceSection() {
@@ -120,7 +120,7 @@ export function ExperienceSection() {
         })}
       </ul>
 
-      <p className="mt-8 text-center text-base text-secondary">
+      {/* <p className="mt-8 text-center text-base text-secondary">
         More details in my{" "}
         <a
           href={siteConfig.figma}
@@ -131,7 +131,7 @@ export function ExperienceSection() {
           Figma portfolio
         </a>
         .
-      </p>
+      </p> */}
     </section>
   );
 }
